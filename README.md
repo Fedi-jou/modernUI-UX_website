@@ -1,3 +1,16 @@
+# Modern UI/UX responsive website
+
+### The Design is inspired from this figma model check the link bellow :
+
+[Link of figma protodype](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
+
+#### In this project i used : :
+
+- CSS BEM , CSS Grid / Flex
+- Media queries for satisfactory responsiveness
+- React icons
+-
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
