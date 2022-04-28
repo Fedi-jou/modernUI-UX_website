@@ -7,9 +7,9 @@
 #### In this project i used : :
 
 - CSS BEM , CSS Grid / Flex
+- gspa 2
 - Media queries for satisfactory responsiveness
 - React icons
--
 
 # Getting Started with Create React App
 
