@@ -7,7 +7,7 @@
 #### In this project i used : :
 
 - CSS BEM , CSS Grid / Flex
-- gsap 3
+- gsap
 - Media queries for satisfactory responsiveness
 - React icons
 
