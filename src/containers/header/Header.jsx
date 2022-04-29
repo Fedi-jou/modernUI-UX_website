@@ -22,7 +22,7 @@ const Header = () => {
     }  
     );
     // eslint-disable-next-line
-  } , []);  
+  });  
  
   return (
     <div className="gpt3__header section__padding" id="home">
