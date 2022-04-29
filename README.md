@@ -2,7 +2,7 @@
 
 ### The Design is inspired from this figma model check the link bellow :
 
-[Link of figma protodype](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
+[Link of figma prototype](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
 
 #### In this project i used : :
 
