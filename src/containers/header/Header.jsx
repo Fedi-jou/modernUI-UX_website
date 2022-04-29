@@ -10,7 +10,7 @@ const Header = () => {
   let image = useRef(null);
   let imageReveal = CSSRulePlugin.getRule(".gpt3__header-image:after");
 
-  let tl = new TimelineLite();
+    let tl = new TimelineLite();
 
   useEffect(() => {
     tl.to(container, 0, { css: { visibility: "visible" } });
@@ -19,15 +19,18 @@ const Header = () => {
       scale: 1,
       ease: Power2.easeInOut,
       delay: -1.4
-    } , []);
-  });
+    }  
+    );
+    // eslint-disable-next-line
+  } , []);  
+ 
   return (
     <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
+      <h1 className="gradient__text">Let's Build Something amazing with GPT-3 OpenAI</h1>
       <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
-      <div className="gpt3__header-content__input">
+      <div className="gpt3__header-content__input" >
         <input type="email" placeholder="Your Email Address" />
         <button type="button">Get Started</button>
       </div>
@@ -36,8 +39,7 @@ const Header = () => {
         <img src={people} alt="people" />
         <p>1,600 people requested access a visit in last 24 hours</p>
       </div>
-    </div>
-
+    </div> 
     <div className="gpt3__header-image" ref = {ell => container = ell }>
       <img src={ai} alt="header" ref = {el => image = el }  /> 
     </div>
